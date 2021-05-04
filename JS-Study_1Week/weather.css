@@ -1,0 +1,71 @@
+.js-weather {
+	display : flex;
+  flex-direction: column;
+  justify-content: center;
+	width : 720px;
+	height : 360px;
+}
+
+.my-weather {
+	width : 720px;
+	height : 180px;
+	display : flex;
+	color : #34495e;
+  flex-direction: column;
+	align-items: center;
+  justify-content: center;
+}
+
+.weather{
+	font-size : 20px;
+	width : 360px;
+}
+
+.weather__description, .weather__temp,
+.weather__humidity, .weather__place{
+	display : flex;
+	justify-content: center;
+}
+
+.weather__title {
+	font-family : "Black Han San";
+	font-size : 24px;
+	display : flex;
+	justify-content: center;
+}
+
+.weather__coord-reset {
+	display : flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.coord-reset__btn {
+	cursor: pointer;
+}
+.weather i {
+	width : 24px;
+	margin-right: 8px;
+}
+
+.choice-box {
+	height : 120px;
+	width : 720px;
+	padding-top : 50px;
+	display : flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.choice__btn{
+	height : 60px;
+	width : 100px;
+	font-size : 24px;
+	border-radius: 10px;
+	cursor : pointer;
+	display : flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: #a29bfe;
+}

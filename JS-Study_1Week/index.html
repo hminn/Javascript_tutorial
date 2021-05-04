@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Something</title>
+		<link rel="stylesheet"
+		href="index.css" />
+		<script
+		src="https://kit.fontawesome.com/23bdffedc2.js"
+		crossorigin="anonymous"
+	></script>
+	</head>
+	<body>
+		<header>
+			<div class="js-clock">
+				<h1></h1>
+			</div>
+		</header>
+		<div class="js-weather">
+			<div class="my-weather">
+				<div class="my-weather weather">
+					<div class="weather__title"><span class="title__my-town">우리동네 날씨</span></div>
+					<div class="weather__description">
+						<i class="fas fa-cloud-sun"></i>
+						<span class="description__text"></span>
+					</div>
+					<div class="weather__temp">
+						<i class="fas fa-temperature-high"></i>
+						<span class="temp__text"></span>
+					</div>
+					<div class="weather__humidity">
+						<i class="fas fa-tint"></i>
+						<span class="humidity__text"></span>
+					</div>
+					<div class="weather__place">
+						<i class="fas fa-map-marked-alt"></i>
+						<span class="place__text"></span>
+					</div>
+					<span class="weather__coord-reset"><span class="coord-reset__btn" title="우리동네 재설정"><i class="fas fa-redo"></span></i></span>
+				</div>
+			</div>
+			<div class="choice-box choice">
+				<div class="choice__btn" id="my-town">우리동네</div>
+				<div class="choice__btn" id="seoul">서울</div>
+				<div class="choice__btn" id="busan">부산</div>
+				<div class="choice__btn" id="daegu">대구</div>
+				<div class="choice__btn" id="gwangju">광주</div>
+				<div class="choice__btn" id="daejeon">대전</div>
+			</div>
+		</div>
+		<script type="module" src="secret.js"></script>
+		<script src="clock.js"></script>
+		<script type="module" src="weather.js"></script>
+	</body>
+</html>

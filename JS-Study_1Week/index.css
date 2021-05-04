@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Do+Hyeon&family=Prompt&display=swap');
+@import "clock.css";
+@import "weather.css";
+
+body {
+	font-family: "Do Hyeon";
+	background : #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+	font-family: "Prompt";
+	color : #34495e;
+	margin : 0px;
+	transition : color 0.5s ease-in-out;
+}
+
+.weather__title {
+	font-family : "Black Han Sans";
+	color : #34495e;
+	font-size : 36px;
+}
